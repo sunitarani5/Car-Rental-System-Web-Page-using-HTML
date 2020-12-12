@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popular Locations</title>
+</head>
+<body style="background-color:black;padding:50px;">
+<div style="background-color:crimson;padding:10px;">
+<img title="CarsRental.com" src="carLogo.jpg" width="100" height="45">
+<span style="color:white;font-weight:bold;vertical-align:top;"><i>CarsRental.com</i></span>
+</div>
+<br /><br />
+<h1 style="text-align:center;font-family:copperplategothicplate;color:crimson;font-weight:bold;">POPULAR LOCATIONS</h1>
+<br /><br />
+<img title="Visakhapatnam" src="vizag.jpg" width="600" height="300"><img title="Bangalore" src="bangaluru.jpg" width="600" height="300">
+<br /><br />
+<pre style="color:white;">                                 <b>VISAKHAPATNAM                                                                            BANGALORE</b> 
+</pre>
+<br /><br />
+<img title="Hyderabad" src="Hyderabad-skyline-Charminar-Getty-866x487.jpg" width="600" height="300"><img title="Kolkata" src="kolkata-e1435226992355.jpg" width="600" height="300">
+<br /><br />
+<pre style="color:white";>                                 <b>HYDERABAD                                                                                  KOLKATA</b> 
+</pre>
+<br /><br />
+<img title="Mumbai" src="mumbai.jpg" width="600" height="300"><img title="Bhubaneshwar" src="bhubaneswar.jpg" width="600" height="300">
+<br /><br />
+<pre style="color:white";>                                 <b>MUMBAI                                                                                 BHUBANESWAR</b> 
+</pre>
+<br /><br />
+<img title="Lucknow" src="1063614_lucknow.jpg" width="600" height="300"><img title="Amritsar" src="amritsar.jpg" width="600" height="300">
+<br /><br />
+<pre style="color:white";>                                 <b>LUCKNOW                                                                                  AMRITSAR</b> 
+</pre>
+<br /><br />
+<img title="Goa" src="Goa-second-edit-123rf-768x768.jpg" width="600" height="400"><img title="New Delhi" src="ndls.jpeg" width="600" height="400">
+<br /><br />
+<pre style="color:white";>                                   <b>GOA                                                                                     NEW DELHI</b> 
+</pre>
+<br /><br />
+<img title="Agra" src="agra-travel-guide.jpg" width="600" height="350"><img title="Jaipur" src="64658204-aerial-view-of-jaipur-from-nahargarh-fort-at-sunset.jpg" width="600" height="350">
+<br /><br />
+<pre style="color:white";>                                 <b>AGRA                                                                                        JAIPUR</b> 
+</pre>
+<br /><br />
+<img title="Haridwar" src="gangadwara-haridwar.jpg" width="600" height="350"><img title="Chennai" src="chennai.jpg" width="600" height="350">
+<br /><br />
+<pre style="color:white";>                                 <b>HARIDWAR                                                                                 CHENNAI</b> 
+</pre>
+<br /><br />
+<img title="Darjeeling" src="darjeeling.jpg" width="1200" height="400">
+<br /><br />
+<pre style="color:white";>                                                                                 <b>DARJEELING</b> 
+</pre>
+<br /><br />
+<pre>
+<form> 
+                                                                            <button style="type=button;background-color:skyblue;color:black;padding:5px;font-weight:bold;font-family:timesnewroman;"><a href="project_4.html">BACK TO HOME PAGE</a></button>
+</form>
+</pre>
+</body>
+</html>
