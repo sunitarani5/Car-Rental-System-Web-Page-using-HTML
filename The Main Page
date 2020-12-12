@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Car Rental System</title>
+</head>
+<body style="background-color:lavender;">
+<h1 style="text-align:center;font-family:segoeuisemibold;color:darkslateblue;font-weight:bold;">CARS RENTAL SYSTEM</h1>
+<div style="background-color:ghostwhite;padding:10px;">
+<img src="carLogo.jpg" width="340" height="120">
+<span style="color:darkslateblue;font-weight:bold;vertical-align:top;font-size:33px;"><i>CarsRental.com</i></span>
+</div>
+<div style="background-color:paleturquoise;color:rebeccapurple;padding:1px;">
+<p style="text-align:right"> <a href="login.html">LOGIN</a> | <a href="sign_up.html">SIGN UP</a> | <a href="manage_booking.html">MANAGE BOOKING</a> | <a href="popular_locations.html">POPULAR LOCATIONS</a></p>
+</div>
+<div style="background-color:skyblue;color:darkblue;padding:3px;">
+<h2 style="text-align:left;font-weight:bold;font-family:copperblack;">Car Hire - Search, Compare and Save</h2>
+</div><hr>
+<script type="text/javascript">
+var i = 0;
+var images = [];
+images[0]='1.jpg';
+images[1]='2.jpg';
+images[2]='3.jpg';
+images[3]='4.png';
+function changeImg(){
+   document.slide.src = images[i];
+   if(i < images.length - 1) i++; else i = 0;
+   setTimeout("changeImg()",3000);
+}
+window.onload = changeImg;
+</script>
+<div style="id:images_slide;text-align:center;">
+<img name="slide" >
+</div>
+<hr>
+<div style="background-color:lavender;color:darkslateblue;padding:10px;margin:10px;">
+<p style="text-align:center;font-weight:bold;font-family:lucidacalligraphy;font-size:30px;">Welcome to CarsRental.com</p>
+<p style="font-family:columbia;text-align:center;font-size:18px;">Here at CarsRental, we pride ourselves on getting our customers the best possible car hire deals. With our secure search and booking 
+engine, you can compare prices across hundreds of brands, from giants like Scorpio and Xylo to smaller local rental companies around the world. 
+<br />
+So what are you waiting for? Book your perfect hire car with CarsRental today!
+</p>
+<br>
+</div>
+<hr>
+<table style="width:100%; height:100%; border:1px solid black;padding:5px;text-align:center;background-color:paleturquoise;" rules="all">
+<tr>
+<td colspan="2" rowspan="2">
+<h4 style="text-align:center;font-weight:bold;font-family:georgia;color:darkblue;"><u>Let's Find Your Ideal Car</u></h4>
+<br /><br />
+<form>
+<b>Pick Up Location: </b><select name="location" size="1">
+<option value="mumbai">Mumbai</option>
+<option value="kolkata">Kolkata</option>
+<option value="chennai">Chennai</option>
+<option value="delhi">Delhi</option>
+<option value="bangalore">Bangalore</option>
+<option value="bhubaneshwar">Bhubaneshwar</option>
+<option value="hyderabad">Hyderabad</option>
+<option value="lucknow">Lucknow</option>
+<option value="patna">Patna</option>
+<option value="goa">Goa</option>
+<option value="amritsar">Amritsar</option>
+<option value="agra">Agra</option>
+<option value="jaipur">Jaipur</option>
+<option value="haridwar">Haridwar</option>
+<option value="darjeeling">Darjeeling</option>
+<option value="visakhapatnam">Visakhapatnam</option>
+</select><br><br>
+<b>Pick Up Date:</b> <input type="text" name="date" size="15"><br><br>
+<b>Drop Off Location: </b><select name="location" size="1">
+<option value="mumbai">Mumbai</option>
+<option value="kolkata">Kolkata</option>
+<option value="chennai">Chennai</option>
+<option value="delhi">Delhi</option>
+<option value="bangalore">Bangalore</option>
+<option value="bhubaneshwar">Bhubaneshwar</option>
+<option value="hyderabad">Hyderabad</option>
+<option value="lucknow">Lucknow</option>
+<option value="patna">Patna</option>
+<option value="goa">Goa</option>
+<option value="amritsar">Amritsar</option>
+<option value="agra">Agra</option>
+<option value="jaipur">Jaipur</option>
+<option value="haridwar">Haridwar</option>
+<option value="darjeeling">Darjeeling</option>
+<option value="visakhapatnam">Visakhapatnam</option>
+</select><br><br>
+<b>Drop Off Date:</b> <input type="text" name="date" size="15"><br><br>
+<b>Purpose Of Rental:</b>  <input type="radio" name="purpose" value="business">Business   <input type="radio" name="purpose" value="leisure">Leisure<br><br>
+<b>Timings:</b>  <select name:"time" size="1">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+</select><select name:"time" size="1">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+<option value="60">60</option>
+</select> to <select name:"time" size="1">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+</select><select name:"time" size="1">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+<option value="60">60</option>
+</select><br /><br /><br />
+<button style="type:button;background-color:cornflowerblue;color:indigo;padding:5px;font-weight:bold;font-family:century;">Search</button><br><br>
+</form>
+</td></tr>
+<tr>
+<td colspan="2" rowspan="2">
+<h4 style="text-align:center;font-weight:bold;font-family:georgia;color:darkblue;"><u>Our Most Popular Destinations</u></h4><br />
+<img title="Kolkata-'good hassle free experience'" src="howrah.jpg" width="250" height="120">
+<img title="Bangalore-'overall good value for money'" src="bangalore.jpeg" width="250" height="120">
+<br />
+<img title="Visakhapatnam-'Quick service,clean new cars'" src="vizag.jpeg" width="250" height="120">
+<img title="New Delhi-'An excellent car hire experience'" src="ndls.jpeg" width="250" height="120">
+<br /><br /><br />
+<form>
+<button style="type:button;background-color:cornflowerblue;color:white;font-weight:bold;font-family:century;padding:5px;"><a href="popular_locations.html">Show More</a></button>
+</form><br /><br />
+</td></tr>
+</table>
+<hr>
+<div style="background-color:rebeccapurple;color:white;padding:10px;">
+<p style="text-align:center;font-weight:bold;font-family:constantia;font-size:30px;">A little more about CarsRental</p>
+<hr>
+<h3 style="font-weight:bold;font-family:erasdemiitc;">Cheap Rental Deals</h3>
+<p style="font-family:sitkatext;">We work with a huge network of rental companies across the globe, meaning that a wide range of affordable choices are available to you at the click of a button. 
+As a broker, we specialise in negotiating with the biggest brands, ensuring that you get the best deal. Because we handle such large numbers of bookings, we have the ability to arrange much 
+lower prices than an individual customer could. Using CarsRental, it really is simple to find yourself a cheap car hire package. Once you know where and when you are going, you can easily browse your
+ options using our car hire comparison tools. As a long-standing brokerage company, you can rely on us for the best service, the best prices and, ultimately, the best trip.</p>
+<br />
+<h3 style="font-weight:bold;font-family:erasdemiitc;">Hiring Made Easy</h3>
+<p style="font-family:sitkatext;">We strive to provide a straightforward and hassle free experience – after all, it’s in our name. Using CarsRental as your rental agent means that there are no hidden 
+fees and all important extras are already included in your price – a bit like an all-inclusive holiday. In most cases, a collision damage waiver, third party insurance, theft protection, 
+unlimited mileage, breakdown cover and free cancellation all come as standard.
+<br /><br />
+So, rest assured that you will come away with the best deal when you rent a car with CarsRental, the low cost online car hire specialist.
+</p>
+</div>
+<div style="background-color:paleturquoise;padding:10px;text-align:left;color:rebeccapurple;font-family:columbia;">
+<a href="manage_booking.html">View Booking</a>  |  <a href="contact_us.html">Contact Us</a>
+</div>
+<div style="background-color:skyblue;padding:30px;text-align:center;color:darkslateblue;font-family:century;">
+<b>CarsRental</b>.com<br />
+@Copyright 2019 CarsRental.com, Delhi
+</div>
+</body>
+</html>
