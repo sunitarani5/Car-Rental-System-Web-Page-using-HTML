@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title></head>
+<body style="background-color:lavender;">
+<h1 style="text-align:center;font-family:segoeuisemibold;color:darkslateblue;font-weight:bold;">CARS RENTAL SYSTEM</h1>
+<div style="background-color:ghostwhite;padding:10px;">
+<img src="carLogo.jpg" width="340" height="120">
+</div>
+<div style="background-color:paleturquoise;color:rebeccapurple;padding:1px;">
+<p style="text-align:right"> <a href="login.html">LOGIN</a> | <a href="sign_up.html">SIGN UP</a> | <a href="manage_booking.html">MANAGE BOOKING</a> | <a href="popular_locations.html">POPULAR LOCATIONS</a></p>
+</div>
+<hr>
+<br>
+<h2 style="color:red;text-align:center;">CONTACT US</h2>
+<h3 style="text-align:center;color:darkblue;">Our team is here to help, by email or by phone.</h3>
+<br>
+<h3 style="text-align:center;">EMAIL US</h3>
+<h4 style="text-align:center;">Before you book: <b>cre@carsrental.com</b><br>
+If you have already made a booking, click <a href="manage_booking.html">here</a></h4>
+<br>
+<h3 style="text-align:center;">CALL US</h3>
+<h4 style="text-align:center;">Contact number:
+0102 206 4590<br>
+Opening Hours(GMT)<br><pre>
+Monday-Friday          24 hours
+Saturday               24 hours
+Sunday                 24 hours
+</pre></h4><hr>
+<div style="background-color:paleturquoise;padding:10px;text-align:left;color:rebeccapurple;font-family:columbia;">
+<a href="manage_booking.html">View Booking</a>  | Contact Us
+</div>
+<div style="background-color:skyblue;padding:30px;text-align:center;color:darkslateblue;font-family:century;">
+<b>CarsRental</b>.com<br />
+@Copyright 2019 CarsRental.com, Delhi
+</div>
+</body>
+</html>
